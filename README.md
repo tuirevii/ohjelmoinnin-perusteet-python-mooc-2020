@@ -6,7 +6,7 @@ This repository consists of some of my solutions to assignments for the 5 cr cou
 * Python 3
 * Python extension to VS Code to run the source code
 
-# Installing Visual Studio Code
+## Installing Visual Studio Code
 * Download VS Code from https://code.visualstudio.com/ and follow the installation instructions
 
 ## Installing Python 
