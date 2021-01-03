@@ -1,4 +1,5 @@
 # Exercise Kurssien tilastot (osa07-13_kurssistatistiikka)
+Please note that only the code in the .py-file in the src folder is mine. All the other files and codes are part of the course material.
 
 ## Assignment / About the program (in Finnish)
 Content copied from the course material https://python-s20.mooc.fi/osa-7/4-datan-kasittely#programming-exercise-kurssien-tilastot
@@ -68,9 +69,9 @@ Toinen tapa kiertää ongelma on seuraava:
 
 ### OSA 2: Yhden kurssin tiedot
 
-Kunkin kurssin JSON-muotoinen tehtävästatistiikka löytyy omasta osoitteesta, joka saadaan vaihtamalla kurssin kenttä name seuraavassa tähtien paikalle https://studies.cs.helsinki.fi/stats-mock/api/courses/****/stats
+Kunkin kurssin JSON-muotoinen tehtävästatistiikka löytyy omasta osoitteesta, joka saadaan vaihtamalla kurssin kenttä `name` seuraavassa tähtien paikalle https://studies.cs.helsinki.fi/stats-mock/api/courses/****/stats
 
-Esimerkiksi kurssin docker2019 tiedot ovat osoitteessa https://studies.cs.helsinki.fi/stats-mock/api/courses/docker2019/stats
+Esimerkiksi kurssin `docker2019` tiedot ovat osoitteessa https://studies.cs.helsinki.fi/stats-mock/api/courses/docker2019/stats
 
 Tee ohjelmaasi funktio `hae_kurssi(kurssi: str)`, joka palauttaa kurssin tarkemman tehtävästatistiikan.
 
